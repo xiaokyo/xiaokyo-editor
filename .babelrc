@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-transform-modules-commonjs", //export default 导出问题
+    [
+      "@babel/plugin-proposal-decorators", //支持装饰器
+      {
+        "legacy": true
+      }
+    ],
+    "@babel/plugin-proposal-class-properties", //类处理
+    "@babel/plugin-proposal-object-rest-spread" //解构兼容
+  ]
+}

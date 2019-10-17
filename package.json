@@ -1,0 +1,51 @@
+{
+  "name": "xiaokyo-editor",
+  "version": "1.0.2",
+  "description": "xiaokyo-editor",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./webpack/dev.js",
+    "pro": "webpack --config ./webpack/pro.js"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "xiaok",
+    "xiaokyo-editor",
+    "react-ui"
+  ],
+  "peerDependencies": {},
+  "author": "xiaokyo",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.6.3",
+    "babel-loader": "^8.0.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.4.4",
+    "less": "^3.10.3",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.1.4",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "braft-editor": "^2.3.8",
+    "braft-extensions": "^0.0.19"
+  }
+}
